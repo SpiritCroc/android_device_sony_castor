@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_castor_windy.mk
+    $(LOCAL_DIR)/omni_castor.mk

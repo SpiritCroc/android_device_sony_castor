@@ -15,7 +15,7 @@
 #
 
 # Release name
-PRODUCT_RELEASE_NAME := castor_windy
+PRODUCT_RELEASE_NAME := castor
 
 $(call inherit-product, build/target/product/embedded.mk)
 
@@ -27,8 +27,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.usb.pid_suffix=1B1
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := castor_windy
-PRODUCT_NAME := omni_castor_windy
+PRODUCT_DEVICE := castor
+PRODUCT_NAME := omni_castor
 PRODUCT_BRAND := Sony
-PRODUCT_MODEL := Xperia Z2 Tablet WiFi
+PRODUCT_MODEL := Xperia Z2 Tablet LTE
 PRODUCT_MANUFACTURER := Sony

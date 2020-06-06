@@ -6,6 +6,6 @@ Minimal tree to build TWRP in android-9.0
 
 export ALLOW_MISSING_DEPENDENCIES=true
 
-. build/envsetup.sh && lunch omni_castor_windy-eng
+. build/envsetup.sh && lunch omni_castor-eng
 
 m recoveryimage
